@@ -1,6 +1,6 @@
-# fastapi_gino
+# fastapi_async_db
 
-This repo is used as a part of a tutorial to show how to use Fastapi with gino for handelling database asynchronously
+This repo is used as a part of a tutorial to show how to use Fastapi with databases and Alembic for handelling databases asynchronously
 
 The full article is published on medium [here](https://medium.com/@ahmed.nafies/fastapi-with-sqlalchemy-postgresql-and-alembic-and-of-course-docker-f2b7411ee396)
 
