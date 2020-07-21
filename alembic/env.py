@@ -12,7 +12,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 sys.path.append(BASE_DIR)
 
-from models import metadata
+import models
+from db import metadata
 
 target_metadata = metadata
 # this is the Alembic Config object, which provides

@@ -1,7 +1,4 @@
-import sqlalchemy
-from db import db
-
-metadata = sqlalchemy.MetaData()
+from db import db, metadata, sqlalchemy
 
 users = sqlalchemy.Table(
     "users",
